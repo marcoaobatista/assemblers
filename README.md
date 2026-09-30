@@ -11,6 +11,7 @@ Static HTML, CSS, and JavaScript, ready for GitHub Pages from the `main` branch 
 - Electric-blue and navy visual design
 - Remote construction, lunar infrastructure, and industrial assembly concept imagery
 - Accessible mobile navigation
+- Header and hero mailing-list links to the Google signup form
 - Technology overview and direct links to NASA questions and licensing
 
 ## Technology and imagery
@@ -19,4 +20,4 @@ Technical content is based on [NASA Assemblers, LAR-TOPS-345](https://technology
 
 The three commercial application scenes are AI-generated concept visualizations, not photographs of deployed systems. This is an independent commercial concept, not an official NASA website or an assertion of a commercial license.
 
-No lead collection database, payment system, or backend is included. Inquiry and licensing buttons open NASA's official pages.
+Mailing-list signups open the owner's Google Form; responses are managed in Google Forms. No database, payment system, or backend runs on this website. Inquiry and licensing buttons open NASA's official pages.

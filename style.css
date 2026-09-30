@@ -16,3 +16,5 @@ h1 span{color:#8db8ff}.hero-media{height:510px;border:1px solid #46628d;box-shad
 @media(max-width:760px){.hero-media{height:400px}.hero-media>img{object-position:52% center}.media-top{font-size:10px;letter-spacing:.6px}.media-bottom b{font-size:23px}.concept-label{max-width:115px;font-size:10px;letter-spacing:.8px}.application-image{height:235px}.application-copy{padding:25px}.application-card h3{margin-top:22px}.application-card p{margin-bottom:25px}.image-caption{font-size:10px}.next-bottom{font-size:10px}.hero-top .eyebrow{font-size:10px}}
 .hero-media>img{object-position:center 15%}
 @media(max-width:760px){.hero-media>img{object-position:15% center}}
+
+.mailing-list-link{display:flex;align-items:center;gap:12px;width:fit-content;margin-top:17px;font-size:14px;font-weight:500;color:#bcd5ff;text-decoration:underline;text-underline-offset:5px}.mailing-list-link:hover{color:#fff}
