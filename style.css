@@ -17,4 +17,19 @@ h1 span{color:#8db8ff}.hero-media{height:510px;border:1px solid #46628d;box-shad
 .hero-media>img{object-position:center 15%}
 @media(max-width:760px){.hero-media>img{object-position:15% center}}
 
-.mailing-list-link{display:flex;align-items:center;gap:12px;width:fit-content;margin-top:17px;font-size:14px;font-weight:500;color:#bcd5ff;text-decoration:underline;text-underline-offset:5px}.mailing-list-link:hover{color:#fff}
+/* Make mailing-list signup the primary action throughout the page. */
+.header .nav-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;background:#8db8ff;border:1px solid #bed6ff;color:#071328;font-weight:700;box-shadow:0 4px 22px #487de52b;transition:background .2s,box-shadow .2s}
+.header .nav-cta span{margin-left:0;font-size:20px}
+.header .nav-cta:hover{background:#c4dcff;color:#071328;box-shadow:0 5px 28px #487de545}
+.hero-actions{margin-top:26px}
+.signup-primary{display:flex;width:100%;min-height:68px;padding:19px 24px;gap:18px;background:#9ac3ff;border:1px solid #daebff;color:#071328;font-size:20px;font-weight:700;line-height:1.25;box-shadow:0 0 0 5px #719aff12,0 9px 35px #4e86ff33}
+.signup-primary:hover{background:#d2e5ff;color:#071328;box-shadow:0 0 0 5px #719aff20,0 12px 40px #4e86ff44}
+.signup-primary span{font-size:28px}
+.signup-note{font-size:13px;line-height:1.6;color:#b9c9e0;margin-top:12px}
+.discover-link{display:inline-flex;gap:12px;align-items:center;margin-top:20px;color:#aab7cf;font-size:14px;text-decoration:underline;text-underline-offset:5px}
+.discover-link:hover{color:#fff}
+.signup-bottom{font-size:18px;min-height:62px;padding:18px 26px;line-height:1.3}
+.nasa-links{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:24px;font-size:13px;color:#173457}
+.nasa-links a{text-decoration:underline;text-underline-offset:4px}
+.nasa-links a:hover{color:#071328}
+@media(max-width:760px){.signup-primary{font-size:20px;min-height:68px}.hero-actions{margin-top:23px}.signup-bottom{width:100%;justify-content:space-between;font-size:18px}.hero-intro{width:100%}.header nav .nav-cta{padding:16px}}
